@@ -13,15 +13,15 @@
 
 // Git test 3 : after modifying gitmodule url to use ssh prefix
 
-// void setup() {
-//   pinMode(LED_BUILTIN, OUTPUT);
-//   Serial.begin(9600);
-// }
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+  Serial.begin(9600);
+}
 
-// void loop() {
-//   long delayPeriod = 500;
-//   digitalWrite(LED_BUILTIN,HIGH);
-//   delay(delayPeriod);
-//   digitalWrite(LED_BUILTIN, LOW);
-//   delay(delayPeriod);
-// }
+void loop() {
+  long delayPeriod = 500;
+  digitalWrite(LED_BUILTIN,HIGH);
+  delay(delayPeriod);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(delayPeriod);
+}
