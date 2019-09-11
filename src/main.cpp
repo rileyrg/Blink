@@ -4,12 +4,8 @@
  * Turns on an LED on for one second,
  * then off for one second, repeatedly.
  */
-#include <stdint.h>
-#include <stdio.h>
 
-#define UBRRH
 #include <Arduino.h>
-#include <avr/io.h>
 
 // Git test 3 : after modifying gitmodule url to use ssh prefix
 // totally confused
